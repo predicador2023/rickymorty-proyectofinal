@@ -156,7 +156,6 @@ nav a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
     margin: 1px;
     
  }
@@ -225,6 +224,8 @@ nav a:hover {
     border-radius: 10px;
     color: white;
     padding: 10px;
+
+    
    }
    
    .parrafo1 h3 {
@@ -247,13 +248,56 @@ nav a:hover {
     margin-right: 20px;
     text-align: center;
     justify-content: left;
+    color: white;
+    
+    
+   }
+
+   .parrafo2 a {
+    text-decoration: none;
    }
 
 @media ( max-width: 480px) {
 
-    header {
+    nav {
         flex-direction: column;
     }
+
+    .nav-links {
+
+        flex-direction: column;
+    }
+
+    header {
+
+        display: block;
+        flex-direction: column;
+    }
+
+    .sinopsis {
+        flex-direction: column;
+    }
+
+    .contenedor {
+
+        flex-direction: column;
+    }
+
+
+
+    .ver-serie {
+        display: block;
+
+        flex-direction: column;
+    }
+
+    .ver-serie1 {
+        flex-direction: column;
+    }
+
+
+
+
 }
 
 
