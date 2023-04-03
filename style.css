@@ -267,15 +267,15 @@ nav a:hover {
         margin: auto;
     }
     .imagen {
-        width: 160px;
-        height: 200px;
+        width: 165px;
+        height: 210px;
 
     }  
 
     h1 {
 
         text-align: center;
-        margin-top: 10px;
+        margin-top: 15px;
 
     }
    
@@ -307,7 +307,8 @@ nav a:hover {
     }
 
     .grid-item {
-        width: 300px;
+        background-color: rgba(208, 233, 255, 0.7);
+        width: 280px;
         flex-direction: column;
        justify-content: center; 
        align-items: center;
@@ -334,7 +335,18 @@ nav a:hover {
 
     }
 
+        .parrafo1 h3 {
+            font-size: 16px;
+        }
+        
+        .parrafo1 p {
+            font-size: 14px;
+        }
 
+        .parrafo2  a p {
+            justify-content: space-between;
+            font-size: 14px;
+        }
 
 }
 
