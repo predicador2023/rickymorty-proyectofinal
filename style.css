@@ -46,7 +46,9 @@ body
         }
 
         h2 {
+            font-family: fuenteRick ;
             font-size: 35px;
+            color: rgba(160, 33, 219, 0.9);
 
         }
     
@@ -86,6 +88,7 @@ nav a:hover {
 
 
 .acercademi h2 {
+    
     font-size: 35px;
     margin-left: 15px;
     margin-top: 18px;
@@ -279,6 +282,11 @@ nav a:hover {
         margin-top: 15px;
 
     }
+
+    h2{
+
+        font-size: 30px;
+    }
    
     nav {
         background-color: rgba(160, 33, 219, 0.6);
@@ -301,6 +309,10 @@ nav a:hover {
     .sinopsis {
         background-color: rgba(208, 233, 255, 0.6);
         flex-direction: column;
+    }
+
+    .sinopsis p {
+        font-size: 18px;
     }
 
     .contenedor {
@@ -339,9 +351,17 @@ nav a:hover {
 
     }
 
+    .ver-serie2 p {
+        font-size: 18px;
+    }
+
     .acercademi {
 
         background-color: rgba(208, 233, 255, 0.6);
+    }
+
+    .acercademi p {
+        font-size: 18px;
     }
 
     footer {
@@ -350,16 +370,16 @@ nav a:hover {
     }
 
         .parrafo1 h3 {
-            font-size: 15px;
+            font-size: 14px;
         }
         
         .parrafo1 p {
-            font-size: 14px;
+            font-size: 13px;
         }
 
         .parrafo2  a p {
             justify-content: space-between;
-            font-size: 14px;
+            font-size: 13px;
         }
 
 }
