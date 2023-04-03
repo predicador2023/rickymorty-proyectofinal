@@ -267,19 +267,21 @@ nav a:hover {
         margin: auto;
     }
     .imagen {
+        justify-content: center;
         width: 165px;
         height: 210px;
 
     }  
 
     h1 {
-
+        font-size: 60px;
         text-align: center;
         margin-top: 15px;
 
     }
    
     nav {
+        background-color: rgba(160, 33, 219, 0.6);
         flex-direction: column;
         justify-content: center;
     }
@@ -293,9 +295,11 @@ nav a:hover {
 
         
         flex-direction: column;
+        justify-content: center;
     }
 
     .sinopsis {
+        background-color: rgba(208, 233, 255, 0.6);
         flex-direction: column;
     }
 
@@ -307,7 +311,7 @@ nav a:hover {
     }
 
     .grid-item {
-        background-color: rgba(208, 233, 255, 0.7);
+        background-color: rgba(208, 233, 255, 0.6);
         width: 280px;
         flex-direction: column;
        justify-content: center; 
@@ -316,7 +320,7 @@ nav a:hover {
 
     .ver-serie {
         
-
+        background-color: rgba(208, 233, 255, 0.6);
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -335,8 +339,18 @@ nav a:hover {
 
     }
 
+    .acercademi {
+
+        background-color: rgba(208, 233, 255, 0.6);
+    }
+
+    footer {
+        background-color: rgba(160, 33, 219, 0.6);
+
+    }
+
         .parrafo1 h3 {
-            font-size: 16px;
+            font-size: 15px;
         }
         
         .parrafo1 p {
