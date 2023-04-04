@@ -42,13 +42,17 @@ body
     h1 {
         font-family: fuenteRick;
         font-size: 70px;
-        color: yellow; 
+        color: greenyellow; 
+        text-shadow: 5px 5px 0 green;
+      
         }
 
         h2 {
             font-family: fuenteRick ;
-            font-size: 35px;
+            font-size: 40px;
             color: rgba(160, 33, 219, 0.9);
+            text-shadow: 2px 2px 0 rgb(109, 0, 82);
+            
 
         }
     
@@ -89,7 +93,7 @@ nav a:hover {
 
 .acercademi h2 {
     
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 15px;
     margin-top: 18px;
     
@@ -136,6 +140,7 @@ nav a:hover {
    }
 
    .sinopsis h2 {
+    font-size: 40px;
     margin-top: 1px; 
    }
 
@@ -146,7 +151,7 @@ nav a:hover {
 }
 
 .personajes h2 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     background-color: rgba(173, 216, 230, 0.60);
     padding: 10px;
@@ -280,12 +285,15 @@ nav a:hover {
         font-size: 60px;
         text-align: center;
         margin-top: 15px;
+        color: greenyellow; 
+        text-shadow: 5px 5px 0 green;
 
     }
 
     h2{
 
         font-size: 30px;
+        text-shadow: 2px 2px 0 rgb(109, 0, 82);
     }
    
     nav {
