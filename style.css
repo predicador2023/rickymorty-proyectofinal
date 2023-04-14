@@ -189,7 +189,7 @@ nav a:hover {
         margin: 10px;
         padding: 10px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
         gap: 50px;
         margin-top: 16px;
       }
@@ -367,11 +367,11 @@ nav a:hover {
         font-size: 18px;
     }
 
-    .contenedor {
+   .contenedor {
 
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: center;     
     }
 
     #grid-item {
@@ -384,21 +384,17 @@ nav a:hover {
       }
 
       .character-card {
-       /* grid-template-columns: repeat(auto-fit, minmax(min(480px,100%), 1fr)) ;  */
+        width: 95%;
+        /*  grid-template-columns: repeat(auto-fit, minmax(min(350px,100%), 1fr)) ;  */
            
-            width: 350px;
+            
             border-radius: 8px;
             padding: 20px;
             text-align: center;
             background-color: rgba(173, 216, 230, 0.60);
           }
           
-        border-radius: 8px;
-        padding: 20px;
-        text-align: center;
-        background-color: rgba(173, 216, 230, 0.60);
-      }
-      
+       
                         
 
     
