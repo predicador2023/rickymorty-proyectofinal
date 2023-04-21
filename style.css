@@ -75,14 +75,14 @@ body
 
 nav a:hover {
 
-   color: rgba(255, 255, 22, 0.726); 
+   color: yellowgreen; 
 
 }
 
 
 
 
-/*con la clase general se une en una misma division la sinopsis y acerca de mi */
+
 .general {
     display: flex;
     margin: 10px;
@@ -170,20 +170,6 @@ nav a:hover {
     }
 
 
-    /* .grid-item {
-    
-   
-    display: flex;
-  
-    background-color: red;
-    text-align: center;
-    padding: 15px;
-    border-radius: 10px;
-    width: 250px;   
-    margin: 10px;
-    gap: 16px;     
-    
-    }      */
 
     #grid-item {
         margin: 10px;
@@ -192,6 +178,7 @@ nav a:hover {
         grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
         gap: 50px;
         margin-top: 16px;
+
       }
       
  
@@ -212,6 +199,11 @@ nav a:hover {
     background-color: rgba(173, 216, 230, 0.60);
   }
   
+  .character-card:hover{
+    background-color: aquamarine;
+  }
+
+
   .character-card img {
     width: 130px;
     height: auto;
@@ -302,9 +294,17 @@ nav a:hover {
     text-align: center;
     justify-content: left;
     color: white;
-    
-    
    }
+
+    .parrafo2 :hover {
+
+        color:greenyellow ;
+     }
+
+    
+    
+    
+   
 
    .parrafo2 a {
     text-decoration: none;
